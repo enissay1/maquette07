@@ -1,0 +1,67 @@
+header {
+    background-color: #ededed;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 999; */
+    flex-wrap: wrap;
+    padding: 10px 20px ;
+
+}
+
+footer {
+  background-color: #000000;
+}
+.btn-jaune {    
+    background-color: #f5a000;
+}
+.line {
+    border-bottom: 2px solid #f5a000; /* Ligne jaune de 2 pixels d'épaisseur en bas */
+  }
+.container {
+    margin-top: 2px solid yellow; /* Marge pour séparer le contenu des bords du conteneur */
+    margin-bottom: 2px;
+  }
+.content {
+    background: linear-gradient(to bottom, #ededed, #ffffff); 
+    display: flex;
+    min-height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Pour supprimer la marge par défaut du body */
+    /* text-align: center; */
+
+}
+  .titreFooter {
+    color:#f5a000
+  }
+  .drapeaux {
+    width: 25px;
+     height: 25px
+  }
+  .blanc {
+    color:#ffffff;
+  }
+  .foot{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+
+  }
+
+  /* .img-fluid {
+    height: 100vh; /* La hauteur de l'image est égale à 100% de la hauteur de la fenêtre visible */
+    /*width: auto;  Pour maintenir le ratio de l'image et rester responsive 
+  } */
+
+  /* Styles for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack columns on smaller screens */
+      }
+    .textBody {
+font-size: small;
+    }
+    .textFooter {
+        font-size: small;
+    }
+}
