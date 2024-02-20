@@ -11,24 +11,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="container-fluid">
 
     <header class="container-fluid line">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="img/logo-4.png" alt="Logo" class="img-fluid" />
+                <img src="img/logo-4.png" alt="Logo" />
             </div>
         </div>
     </header>
+
     <div class="content textBody ">
-        <div class="container">
+
+        <div class="container-fluid">
             <!-- Contenu principal ici -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <img src="img/body-1.png" alt="travail" class="img-fluid" />
                 </div>
                 <div class="col-md-6 text-center">
-                    <p>Nos serveurs sont actuellement indisponibles!</p>
+                    <p id="msg">Nos serveurs sont actuellement indisponibles!</p>
                     <p>Nos equipes techniques mettent tout en oeuvre pour resoudre ce probléme au plus vite.Nous somme
                         désolés pours la géne occasionnée</p>
                     <p>Si vous avez besion d'aide,n'hesitez pas à contacter notre service client au
@@ -42,49 +44,115 @@
     </div>
 
 
-    <footer>
-        <div class="blanc textFooter foot">
-            <div class="row">
-                <div class="col-12 text-center">
+    <footer class="textFooter">
+        <div id="contact-web" class="blanc foot ">
+            <section class="row">
+                <div class="col-12 text-center ">
                     <h3 class="titreFooter">Contactez-nous</h3>
                 </div>
-                <div class="row col-12 text-center">
-                    <section class="col-3 text-center"><i class="fas fa-mobile-alt btn btn-jaune"></i> Téléphone
-                        Portable:
-                        +33 987 654 321</section>
-                    <section class="col-3 text-center"><i class="fas fa-phone btn btn-jaune"></i> Téléphone: +33 123 456
-                        789</section>
-                    <section class="col-3 text-center"> <i class="fas fa-envelope btn btn-jaune"></i>
-                        Email:info@example.com</section>
-                    <!-- <span class="col-3">
-                        <span class="text-center">Lundi-vendredi </span>
-                        <span class="text-center">8h30-12h30&14h-1830</span>
-                    </span> -->
-                    <section class="col-3 text-center ">
-                        <p>Lundi-vendredi<br> 8h30-12h30&14h-1830</p>
-                    </section>
-                </div>
-            </div>
-            <div class="text-center">
-                <img src="img/logo-4.png" alt="Logo" class="img-fluid" />
-            </div>
-            <div class="row justify-content-between foot">
+            </section>
+
+            <section class="row col-12 text-center ">
+                <section class="col-3 text-center"><i class="fas fa-mobile-alt btn btn-jaune"></i>
+                    +33 987 654 321</section>
+                <section class="col-3 text-center"><i class="fas fa-mobile-alt btn btn-jaune"></i>
+                    Portable: +33 987 654 321
+                </section>
+                <section class="col-3 text-center"><i class="fas fa-envelope btn btn-jaune"></i>
+                    Email:contact@07ZR.com</section>
+                <section class="col-3 text-center ">
+                    <p>Lundi-vendredi<br> 8h30-12h30&14h-1830</p>
+                </section>
+            </section>
+
+            <section class="text-center ">
+                <img src="img/logo-4.png" alt="Logo" />
+            </section>
+
+            <section class="row justify-content-between foot">
                 <div>
                     <strong>O7ZR</strong> est une marque enregistré @Copyright2020 -plan du site
                 </div>
                 <div>
                     <span>Present sur</span>
-                    <img class="drapeaux" src="img/drapeaux/france.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/espagne.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/italie.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/allemagne.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/drapeaux.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/le-portugal.png" alt="Logo" class="img-fluid" />
-                    <img class="drapeaux" src="img/drapeaux/pologne.png" alt="Logo" class="img-fluid" />
+                    <img class="drapeaux" src="img/drapeaux/france.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/espagne.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/italie.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/allemagne.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/drapeaux.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/le-portugal.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/pologne.png" alt="Logo" />
                 </div>
-            </div>
+            </section>
         </div>
 
+
+
+        <div id="contact-mobile" class="blanc  ">
+            <section class="text-center">
+                <img src="img/logo-4.png" alt="Logo" />
+            </section>
+            <section class="text-center">
+                <div class="row col-12">
+                    <p class="col-6">Condition d'utlisation</p>
+                    <p class="col-6">Espace public</p>
+                </div>
+                <div class="row col-12">
+                    <span class="col-2">Suivez nous</span>
+                    <a href="#" class="col-2"><i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="col-2"><i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="col-2"><i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="col-2"><i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="col-2"><i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </section>
+            <section class=" text-center ">
+                <div class="col-12 col-md-12 col-sm-12 text-center ">
+                    <p>Lundi-vendredi<br> 8h30-12h30&14h-1830</p>
+                </div>
+            </section>
+
+            <section>
+                <div class="text-center ">
+                    <section class="text-center">
+                        <h3 class="titreFooter mb-1">BESION D'AIDE?</h3><br>
+                        <div class="mt-1">Des experts à votre service</div>
+                    </section>
+                </div>
+            </section>
+            <section class="row col-12 text-center ">
+                <section class="col-6 col-md-6 text-center"><i class="fas fa-mobile-alt btn btn-jaune"></i>
+                    05 16 44 10 17
+                </section>
+                <section class="col-6 text-center"><i class="fas fa-envelope btn btn-jaune"></i>
+                    contact@07ZR.com</section>
+                <section class="col-12 col-md-12 col-sm-12 text-center ">
+                    <p>Lundi-vendredi<br> 8h30-12h30&14h-1830</p>
+                </section>
+            </section>
+
+            <section>
+                <div>
+                    <span>changer de pays</span>
+                    <img class="drapeaux" src="img/drapeaux/france.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/espagne.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/italie.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/allemagne.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/drapeaux.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/le-portugal.png" alt="Logo" />
+                    <img class="drapeaux" src="img/drapeaux/pologne.png" alt="Logo" />
+                </div>
+                <div>
+                    <strong>O7ZR</strong> est une marque enregistré @Copyright2020 -plan du site
+                </div>
+
+            </section>
+        </div>
 
     </footer>
 

@@ -47,21 +47,37 @@ footer {
     font-size: small;
 
   }
+  #contact-mobile {
+    display: none !important;
+} 
 
-  /* .img-fluid {
+
+
+  .img-fluid {
     height: 100vh; /* La hauteur de l'image est égale à 100% de la hauteur de la fenêtre visible */
-    /*width: auto;  Pour maintenir le ratio de l'image et rester responsive 
-  } */
+     width: auto; /* Pour maintenir le ratio de l'image et rester responsive  */
+  }
 
   /* Styles for smaller screens (e.g., mobile) */
 @media (max-width: 768px) {
-    .row {
-        flex-direction: column; /* Stack columns on smaller screens */
-      }
+  
     .textBody {
-font-size: small;
+        font-size: medium !important;
+        width: 100%;
+
     }
     .textFooter {
-        font-size: small;
+      font-size: small !important;
+
     }
+ #msg{
+  font-weight: 700;
+ }
+    #contact-web {
+        display: none !important;
+    } 
+    #contact-mobile {
+        display: block !important;
+    } 
+
 }
